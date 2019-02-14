@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 
 const About = () => (
-  <Layout>
+  <Layout title="About">
     <h1>About Us</h1>
     <ul className="company-info">
       <li>

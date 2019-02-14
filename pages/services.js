@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 
 const Services = () => (
-  <Layout>
+  <Layout title="Our Services">
     <h1>Our Services</h1>
     <div className="services">
       <div className="services-list">

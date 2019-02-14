@@ -10,7 +10,7 @@ const Portfolio = () => {
   }
 
   return (
-    <Layout>
+    <Layout title="Portfolio">
       <h1>Portfolio</h1>
       <Gallery images={images} />
     </Layout>
