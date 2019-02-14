@@ -1,10 +1,9 @@
-import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 
 const Portfolio = () => (
-  <div className="container">
-    <Menu />
+  <Layout>
     <h1>Portfolio</h1>
-  </div>
+  </Layout>
 );
 
 export default Portfolio;

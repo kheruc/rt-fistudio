@@ -1,10 +1,9 @@
-import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 
 const Homepage = () => (
-  <div className="container">
-    <Menu />
+  <Layout>
     <h1>Welcome to our website!</h1>
-  </div>
+  </Layout>
 );
 
 export default Homepage;

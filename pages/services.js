@@ -1,10 +1,9 @@
-import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 
 const Services = () => (
-  <div className="container">
-    <Menu />
+  <Layout>
     <h1>Our Services</h1>
-  </div>
+  </Layout>
 );
 
 export default Services;
