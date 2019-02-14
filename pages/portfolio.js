@@ -1,10 +1,10 @@
 import Menu from '../components/Menu';
 
-const Homepage = () => (
+const Portfolio = () => (
   <div className="container">
     <Menu />
-    <h1>Welcome to our website!</h1>
+    <h1>Portfolio</h1>
   </div>
 );
 
-export default Homepage;
+export default Portfolio;
