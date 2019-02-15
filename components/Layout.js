@@ -9,7 +9,7 @@ const Layout = props => (
         {props.title ? `${props.title} | ` : ''}
         Fi Studio
       </title>
-      {props.description != '' ? <meta name="description" content={props.description} /> : null}
+      {props.description ? <meta name="description" content={props.description} /> : null}
     </Head>
 
     <Header />
